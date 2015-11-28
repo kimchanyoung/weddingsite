@@ -93,9 +93,20 @@
 }
 
 #decision {
-  width: 100%;
+  width: 60%;
+  display: inline-block;
+  padding-right: 1.5%;
 }
 #entry_1915915708 {
+  width: 100%;
+  font-size: .8em;
+}
+
+#plusone {
+  width: 38%;
+  display: inline-block;
+}
+#entry_158112699 {
   width: 100%;
   font-size: .8em;
 }
