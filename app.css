@@ -2,6 +2,17 @@
   font-family: 'Roboto';
 }
 
+#pword-wall {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  display: inline;
+  float:left;
+}
+
 #std-title {
   text-align: center;
 }
@@ -21,14 +32,17 @@
 .ss-q-short, .ss-q-long, .ss-q-select {
   height: 3em;
   box-sizing: border-box;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 0;
+  border-bottom: 1px solid black;
   margin-top: .5em;
   margin-bottom: .5em;
+  font-size: 1.2em;
+  line-height: 0;
 }
 
 .ss-q-title {
   font-weight: bold;
+  font-size: 1.2em;
 }
 .ss-secondary-text {
   font-size: .8em;
