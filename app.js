@@ -1,3 +1,3 @@
-$(document).ready(function(){
-  var wall = document.getElementById("pword-wall")
-})();
+// $(document).ready(function(){
+//   var wall = document.getElementById("pword-wall")
+// })();

@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type='text/css' rel='stylesheet' href='app.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src='app.js'></script>
+    <script src="jquery-validate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#commentForm").validate({meta: "validate"});
+      });
+    </script>
   </head>
 
   <body>
@@ -16,7 +23,7 @@
 
     <div id='std-title'><h2>Will ya save da date?</h2></div>
     <div class="ss-form">
-      <form action="https://docs.google.com/forms/d/1HROOwUbkdgr1lEroSiZhIuzlnTenm1y1Q_-fCq5t9X0/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
+      <form action="https://docs.google.com/forms/d/1HROOwUbkdgr1lEroSiZhIuzlnTenm1y1Q_-fCq5t9X0/formResponse?embedded=true" method="POST" id="commentForm" target="_self" onsubmit="">
         <ol role="list" class="ss-question-list" style="padding-left: 0">
 
 <!--           <label class="ss-q-item-label">
@@ -28,7 +35,7 @@
           <div class="ss-form-question errorbox-good" role="listitem" id='first-name'>
             <div dir="auto" class="ss-item  ss-text">
               <div class="ss-form-entry">
-                <input type="text" name="entry.1021099839" value="" class="ss-q-short" id="entry_1021099839" dir="auto" aria-label="First Name  " title="">
+                <input type="text" name="entry.1021099839" value="" class="required" id="entry_1021099839" dir="auto" aria-label="First Name  " title="We have to know your first name!">
                 <label class="ss-q-item-label" for="entry_1021099839">
                   <div class="ss-q-title"></div>
                   <div class="ss-q-help ss-secondary-text" dir="auto">First Name</div>
@@ -42,7 +49,7 @@
           <div class="ss-form-question errorbox-good" role="listitem" id='last-name'>
             <div dir="auto" class="ss-item  ss-text">
               <div class="ss-form-entry">
-                <input type="text" name="entry.992463670" value="" class="ss-q-short" id="entry_992463670" dir="auto" aria-label="Last Name  " title="">
+                <input type="text" name="entry.992463670" value="" class="required" id="entry_992463670" dir="auto" aria-label="Last Name  " title="Please give us your last name.">
                 <label class="ss-q-item-label" for="entry_992463670">
                   <div class="ss-q-title"></div>
                   <div class="ss-q-help ss-secondary-text" dir="auto">Last Name</div>
@@ -56,7 +63,7 @@
           <div class="ss-form-question errorbox-good" role="listitem" id='email'>
             <div dir="auto" class="ss-item  ss-text">
               <div class="ss-form-entry">
-                <input type="text" name="entry.1058749846" value="" class="ss-q-short" id="entry_1058749846" dir="auto" aria-label="E-mail Address  " title="">
+                <input type="text" name="entry.1058749846" value="" class="required" id="entry_1058749846" dir="auto" aria-label="E-mail Address  " title="What is your e-mail address?">
                 <label class="ss-q-item-label" for="entry_1058749846">
                   <div class="ss-q-title"></div>
                   <div class="ss-q-help ss-secondary-text" dir="auto">Email</div>
