@@ -9,17 +9,20 @@
   </head>
 
   <body>
-    <div id='pword-wall'>
-    </div>
-    <div id='std-title'><h1>Will ya save da date?</h1></div>
+    <header id='std-header'>
+      <h1>Janelle Chan & Chanyoung Kim<h1>
+      <h2>We gettin' hitched</h2>
+    </header>
+
+    <div id='std-title'><h2>Will ya save da date?</h2></div>
     <div class="ss-form">
       <form action="https://docs.google.com/forms/d/1HROOwUbkdgr1lEroSiZhIuzlnTenm1y1Q_-fCq5t9X0/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
         <ol role="list" class="ss-question-list" style="padding-left: 0">
 
-          <label class="ss-q-item-label">
+<!--           <label class="ss-q-item-label">
             <div class="ss-q-title">Name</div>
             <div class="ss-q-help ss-secondary-text" dir="auto"></div>
-          </label>
+          </label> -->
 
           <!-- First Name -->
           <div class="ss-form-question errorbox-good" role="listitem" id='first-name'>
@@ -53,11 +56,11 @@
           <div class="ss-form-question errorbox-good" role="listitem" id='email'>
             <div dir="auto" class="ss-item  ss-text">
               <div class="ss-form-entry">
-                <label class="ss-q-item-label" for="entry_1058749846">
-                  <div class="ss-q-title">E-mail Address</div>
-                  <div class="ss-q-help ss-secondary-text" dir="auto"></div>
-                </label>
                 <input type="text" name="entry.1058749846" value="" class="ss-q-short" id="entry_1058749846" dir="auto" aria-label="E-mail Address  " title="">
+                <label class="ss-q-item-label" for="entry_1058749846">
+                  <div class="ss-q-title"></div>
+                  <div class="ss-q-help ss-secondary-text" dir="auto">Email</div>
+                </label>
                 <div class="error-message" id="1048678179_errorMessage"></div>
               </div>
             </div>
@@ -65,10 +68,10 @@
 
 
           <!-- Address -->
-          <label class="ss-q-item-label">
+<!--           <label class="ss-q-item-label">
             <div class="ss-q-title">Address</div>
             <div class="ss-q-help ss-secondary-text" dir="auto"></div>
-          </label>
+          </label> -->
 
           <div class="ss-form-question errorbox-good" role="listitem" id='address1'>
             <div dir="auto" class="ss-item  ss-text">
@@ -128,28 +131,21 @@
                   <div class="ss-q-help ss-secondary-text" dir="auto"></div>
                 </label>
                 <select name="entry.1915915708" id="entry_1915915708" aria-label="Will you come party with us?  " class='ss-q-select'>
-                  <option value="Absolutely, yes!">Absolutely, yes!</option>
-                  <option value="No, but sending lots of love!">No, but sending lots of love!</option>
+                  <option value="Absolutely, yes!">AYE!</option>
+                  <option value="No, but sending lots of love!">NAY!</option>
                 </select>
               </div>
             </div>
           </div>
 
           <div class="ss-form-question errorbox-good" role="listitem" id='plusone'>
-            <div dir="auto" class="ss-item  ss-select">
+            <div dir="auto" class="ss-item  ss-paragraph-text">
               <div class="ss-form-entry">
                 <label class="ss-q-item-label" for="entry_158112699">
-                  <div class="ss-q-title">How many are coming with you?</div>
+                  <div class="ss-q-title">Names of Permitted Guests?</div>
                   <div class="ss-q-help ss-secondary-text" dir="auto"></div>
                 </label>
-                <select name="entry.158112699" id="entry_158112699" aria-label="How many are coming with you?  " class='ss-q-select'>
-                  <option value="Just me!">Just me!</option>
-                  <option value="Plus one!">Plus one!</option>
-                  <option value="Plus two!">Plus two!</option>
-                  <option value="Plus 3!">Plus 3!</option>
-                  <option value="PLUS FOUR">PLUS FOUR</option>
-                  <option value="PLUS FIVVVEEE">PLUS FIVVVEEE</option>
-                </select>
+                <textarea name="entry.158112699" rows='8' cols='0' class="ss-q-long" id="entry_158112699" dir='auto' aria-label="How many are coming with you?  "></textarea>
               </div>
             </div>
           </div>
@@ -180,5 +176,8 @@
         </ol>
       </form>
     </div>
+
+    <footer>
+    </footer>
   </body>
 </html>
