@@ -3,38 +3,17 @@
   margin: 0;
 }
 
-#pword-wall {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  z-index: 1;
-  display: inline;
-  float:left;
-}
-
-/* Header */
-#std-header {
+.std-infotitle {
+  margin-top: 1em;
   text-align: center;
-  font-size: 2em;
-  padding-top: 10em;
-  padding-bottom: 8em;
-  color: white;
-  background: url("stdbg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 0;
-  margin-bottom: 2em;
 }
 
-/*FORM STYLING*/
 #std-title {
   margin-top: 3em;
   margin-bottom: 2em;
   text-align: center;
 }
+/*FORM STYLING*/
 
 .ss-form {
   display: block;
@@ -59,10 +38,10 @@
 
 .ss-q-title {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .ss-secondary-text {
-  font-size: .8em;
+  font-size: .9em;
 }
 
 /*Individual formatting*/
@@ -132,12 +111,10 @@
 }
 #entry_1915915708 {
   width: 100%;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 #plusone {
-  /*margin-top: 4em;*/
-  /*width: 38%;*/
   width: 100%;
   display: inline-block;
 }
